@@ -1,8 +1,5 @@
-import {shallowMount} from '@vue/test-utils';
-import App from '../App';
+import {kek} from './kek';
 
-describe ('test App', () => {
-  it ('works', ()=> {
-     shallowMount(App);
-  });
+it ('works', ()=> {
+  expect(kek.a).toBe(1);
 });
